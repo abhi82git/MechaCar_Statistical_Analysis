@@ -19,6 +19,7 @@ From the above output we can see that:
 ## Deliverable 2 - Summary Statistics on Suspension Coils
 
 - Based on the following snapshot on stats for all the manufacturing lots, the variance for coils is 62.293 which is well inside the threshold of 100 pounds per square inch (ppsi).
+
 ![Total_Summary_DF](https://github.com/abhi82git/MechaCar_Statistical_Analysis/blob/fc2c5d2bdc506737a525e9df24b7be3b5b370bec/Total_Summary_DF.png)
 
 - Going deeper and looking into the stats for each manufacturing lot individually however shows the true picture. While Lot 1 and Lot 2 are performing well within requirements with 0.98 and 7.47 ppsi, Lot 3 has a variance of 170.29 which is not only well beywond requirement but it is pulling the overall variance of the lots too.
@@ -28,12 +29,14 @@ From the above output we can see that:
 
 ## Deliverable 3 - T-Tests on Suspension Coils
 From the snapshots below,  we can see the true mean of the sample is 1498.78. With a p-Value of 0.06, which is higher than 0.05, there is NOT enough evidence to reject the null hypothesis. Thus, the mean of all three of these manufacturing lots is statistically similar to the  population mean of 1500.
+
 ![t-test_mean_without_log](https://github.com/abhi82git/MechaCar_Statistical_Analysis/blob/fc2c5d2bdc506737a525e9df24b7be3b5b370bec/t-test_mean_without_log.png)
 
 Looking at each individual lots:
 - Lot 1 sample has the true sample mean of 1500. With a p-Value of 1, the null hypothesis cannot be rejected that sample and population means are statistically similar.
 - Lot 2 has the same outcome with a sample mean of 1500.02, a p-Value of 0.61. With a p-Value of 0.61, the null hypothesis cannot be rejected that sample and population means are statistically similar.
 - However Lot 3, is different. Here the sample mean is 1496.14 and the p-Value is 0.04, which is lower than 0.05. There is sufficient evidence to reject null hypothesis and conclude that the means of population and sample for Lot 3 are stistically different.
+
 ![t-test_all_lots_without_log](https://github.com/abhi82git/MechaCar_Statistical_Analysis/blob/fc2c5d2bdc506737a525e9df24b7be3b5b370bec/t-test_all_lots_without_log.png)
 
 
