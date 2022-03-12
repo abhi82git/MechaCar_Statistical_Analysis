@@ -22,6 +22,7 @@ From the above output we can see that:
 ![Total_Summary_DF](https://github.com/abhi82git/MechaCar_Statistical_Analysis/blob/fc2c5d2bdc506737a525e9df24b7be3b5b370bec/Total_Summary_DF.png)
 
 - Going deeper and looking into the stats for each manufacturing lot individually however shows the true picture. While Lot 1 and Lot 2 are performing well within requirements with 0.98 and 7.47 ppsi, Lot 3 has a variance of 170.29 which is not only well beywond requirement but it is pulling the overall variance of the lots too.
+
 ![Lot_Summary_DF](https://github.com/abhi82git/MechaCar_Statistical_Analysis/blob/fc2c5d2bdc506737a525e9df24b7be3b5b370bec/Lot_Summary_DF.png)
 
 
